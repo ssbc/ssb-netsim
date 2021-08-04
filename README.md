@@ -1,7 +1,7 @@
 # ssb-netsim
 A [netsim](https://github.com/ssb-ngi-pointer/netsim/) helper library. 
 
-`ssb-netsim` allows you to write javascript to generate netsim statments. For more info regarding netsim's statements, [read the docs](https://github.com/ssb-ngi-pointer/netsim/blob/main/commands.md).
+`ssb-netsim` allows you to write javascript to generate netsim statements. For more info regarding netsim's statements, [read the docs](https://github.com/ssb-ngi-pointer/netsim/blob/main/commands.md).
 
 ## Example
 ```js
