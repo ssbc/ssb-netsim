@@ -30,3 +30,33 @@ peer.publish(a)
 peer.stop()
 peer.log() // equivalent to peer.log(1)
 ```
+
+``` 
+comment start the show
+enter peer
+hops peer 1
+caps peer asasd
+skipoffsets peer
+load peer @asdasd.ed25519
+enter bob
+hops bob 1
+caps bob asasd
+skipoffsets bob
+load bob @2asdasd.ed25519
+start peer ssb-server
+start bob go-ssb
+wait 100
+follow peer bob
+has peer bob@latest
+has peer bob@123
+connect peer bob
+disconnect peer bob
+waituntil peer bob@1337
+waituntil peer bob@latest
+post peer
+isfollowing peer bob
+isnotfollowing peer bob
+publish peer (content is king) (nested.type cool) (nested.extremely.deep key) (.ary one,two,three)
+stop peer
+log peer 1
+```

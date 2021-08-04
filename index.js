@@ -85,6 +85,5 @@ function isObject (value) {
 }
 
 module.exports = function () {
-  console.log("yee")
   return new Simulator()
 }
