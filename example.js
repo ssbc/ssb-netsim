@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Alexander Cobleigh
+//
+// SPDX-License-Identifier: Unlicense
+
 var netsim = require("./index.js")
 var sim = netsim()
 sim.comment("start the show")

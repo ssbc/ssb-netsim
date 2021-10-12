@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2021 Alexander Cobleigh
+//
+// SPDX-License-Identifier: MIT
 
 class Simulator {
   constructor () {
